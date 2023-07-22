@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4557188724941244672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4557188724941244674}
+  - component: {fileID: 4557188724941244673}
+  m_Layer: 0
+  m_Name: Deck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4557188724941244674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4557188724941244672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.1, y: -1.289658, z: -156.62718}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4557188724941244673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4557188724941244672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4febc9fc248ffd468e8a4e5b0e8bf20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dominoesSprites:
+  - {fileID: 21300000, guid: 766b6f4fa55f3e6469e6c2f6501b3a0c, type: 3}
+  - {fileID: 21300000, guid: ddea4ee39c9268244840f5418ae93628, type: 3}
+  - {fileID: 21300000, guid: d97778c1690dac44ea28b9e90f1d1917, type: 3}
+  - {fileID: 21300000, guid: f5742fb055c430846a76c0fe4054e0fa, type: 3}
+  - {fileID: 21300000, guid: b4e36588adfee854cb81d607d7c0b445, type: 3}
+  - {fileID: 21300000, guid: 11d954c80994b894ba6c3341d589869d, type: 3}
+  - {fileID: 21300000, guid: a03d97cf35cc7b645b34481b7216059a, type: 3}
+  - {fileID: 21300000, guid: cb62c87143ed45d46843237b3f75eab5, type: 3}
+  - {fileID: 21300000, guid: e9fd166d08f22ec46ae9ed38d18837ab, type: 3}
+  - {fileID: 21300000, guid: 3e64ddd7cdde87241aa3925f2ad494fa, type: 3}
+  - {fileID: 21300000, guid: bab45754c02d1c840b37e83b43bc9ba6, type: 3}
+  - {fileID: 21300000, guid: 4e33c6e7c45d5da4cbbae26f7586ec82, type: 3}
+  - {fileID: 21300000, guid: 89e23c8c9466a144d8bcc522fb7968ec, type: 3}
+  - {fileID: 21300000, guid: 282d7817787394548b068ffdd49d785b, type: 3}
+  - {fileID: 21300000, guid: 9a588e63471ff894e8b55152b6ee38bc, type: 3}
+  - {fileID: 21300000, guid: 59704b2675e7a304281405e156473d6d, type: 3}
+  - {fileID: 21300000, guid: 903176008bcb7df41942602deb66f8d8, type: 3}
+  - {fileID: 21300000, guid: 3e8ff8fe2f40fd8418441a9756d2bcb4, type: 3}
+  - {fileID: 21300000, guid: 2de3111174a0c514da7146f1b3c23f2a, type: 3}
+  - {fileID: 21300000, guid: fa485b41daa916a4d8cfec8ae72d55ab, type: 3}
+  - {fileID: 21300000, guid: 53c5e7ad2f825c545b31ef2911b497e7, type: 3}
+  - {fileID: 21300000, guid: d9f7edc29b1348549add0a0dd410f262, type: 3}
+  - {fileID: 21300000, guid: 1f936147639a7834a8cdb850c9acbafd, type: 3}
+  - {fileID: 21300000, guid: 01718c49194a6e24d95824c4e07f71fb, type: 3}
+  - {fileID: 21300000, guid: 0777157a11d91a44586e26708e651180, type: 3}
+  - {fileID: 21300000, guid: 072ce5297362ba448bbbbd50d644bf3e, type: 3}
+  - {fileID: 21300000, guid: 5463cd86c9cbaf84b8f9be0d590db1c0, type: 3}
+  - {fileID: 21300000, guid: afb87093df916b24592379708d27cb82, type: 3}
+  dominoes: []
+  dominoesUsed: 
+  dominoPreFab: {fileID: 7166581138533971428, guid: de3c9f1005a2d624cb0b1499c1fe0032, type: 3}
+  playerScript: {fileID: 0}
